@@ -3,7 +3,7 @@
 
 ifneq ($(filter $$DEVICE$$,$(TARGET_DEVICE)),)
 
-LOCAL_PATH := device/$$BRAND$$/$$DEVICE$$
+LOCAL_PATH := device/planet/astroslide
 
 include $(call all-makefiles-under,$(LOCAL_PATH))
 

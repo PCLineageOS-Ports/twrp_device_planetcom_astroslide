@@ -2,6 +2,6 @@
 # Replace $$BRAND$$ with your Brand's / Manufacturer's Value.
 # The part of last line in mine looks like "omni_Primo_RX5.mk"
 
-LOCAL_PATH := device/$$BRAND$$/$$DEVICE$$
+LOCAL_PATH := device/planet/astroslide
 
-PRODUCT_MAKEFILES := $(LOCAL_PATH)/omni_$$DEVICE$$.mk
+PRODUCT_MAKEFILES := $(LOCAL_PATH)/omni_astroslide.mk
